@@ -8,11 +8,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Structure
 
-The project includes one page (app.component) where a product list is shown
+The project includes one page (app.component) where a product list is shown, and a form to create a new product.
 
-There is a folder called utils which contains 2 files:
-
-- contants: this file contains the variables with the API url and the methods are needed in the test
-- api: this file contains the logic for doind an api call, GET and POST methods works correctly
-
-In the app.component.html file there is a form to create a new product, the candidate only has to connect this form to the controller file
+The candidate must:
+- Fetch the list of products from the correct endpoint [FakeStoreAPI](https://fakestoreapi.com/docs)
+- Connect the form to the controller to send a newly created product to the API (and append it to the products array)

@@ -6,7 +6,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./app.component.scss"],
 })
 export class AppComponent implements OnInit {
-  products: any = [];
+  products: any = []; // TODO: Populate with https://fakestoreapi.com/docs data
   visibleForm = false;
 
   toggleForm() {
